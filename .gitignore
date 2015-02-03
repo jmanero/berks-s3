@@ -16,6 +16,8 @@ Berksfile.lock
 .bundle/*
 
 VERSION
+package.json
 metadata.json
 vendor
 node_modules
+server.sock

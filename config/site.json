@@ -1,0 +1,9 @@
+{
+  "service": {
+    "listen": 8080
+  },
+  "store": {
+    "bucket": "cookbooks.manero.io",
+    "prefix": "cookbooks"
+  }
+}
