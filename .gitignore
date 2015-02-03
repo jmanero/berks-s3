@@ -9,12 +9,13 @@ pkg/
 # Berkshelf
 .vagrant
 /cookbooks
+cookbooks.tar.gz
 Berksfile.lock
 
 # Bundler
-Gemfile.lock
-bin/*
 .bundle/*
 
-.kitchen/
-.kitchen.local.yml
+VERSION
+metadata.json
+vendor
+node_modules
