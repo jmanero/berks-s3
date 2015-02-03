@@ -1,0 +1,23 @@
+{
+  "name": "berks-s3",
+  "version": "0.0.1",
+  "description": "Berkshelf API for an S3 store",
+  "main": "bin/server/js",
+  "scripts": {
+    "test": "/bin/false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jmanero/berks-s3.git"
+  },
+  "keywords": [
+    "berkshelf",
+    "berks-api"
+  ],
+  "author": "John Manero <john.manero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmanero/berks-s3/issues"
+  },
+  "homepage": "https://github.com/jmanero/berks-s3"
+}
