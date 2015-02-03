@@ -1,17 +1,29 @@
-# node-service
-Template for NodeJS Services
+# Berksshelf S3 API
+Use S3 as a bookshelf
 
 ## Usage
-Clone this repository to start a new project:
-
-```
-git init
-git remote add base git@github.com:jmanero/node-serivce.git
-git remote add origin <YOUR COOKBOOK REPOSITORY>
-git pull base master
-...
-git push -u origin master
-```
 
 ## License and Authors
-Author:: John Manero (john.manero@gmail.com)
+```
+The MIT License (MIT)
+=====================
+_Copyright (C) 2015 John Manero <john.manero@gmail.com>_
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```

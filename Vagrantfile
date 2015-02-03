@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure('2') do |config|
-  config.vm.hostname = 'service-template'
+  config.vm.hostname = 'berks-s3'
   config.vm.box = 'ubuntu-14.04-provisionerless'
   config.vm.box_url = 'https://cloud-images.ubuntu.com/vagrant/trusty/'\
     'current/trusty-server-cloudimg-amd64-vagrant-disk1.box'
@@ -23,9 +23,7 @@ Vagrant.configure('2') do |config|
     }
 
     chef.run_list = [
-      'recipe[node-service::default]'
+      'recipe[berks-s3::default]'
     ]
   end
 end
-
-fail 'This cookbook is a template. It has no executable functionality!'

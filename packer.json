@@ -1,8 +1,8 @@
 {
   "variables": {
     "AMI_ID": "",
-    "NAME": "node-serivce",
-    "DESCRIPTION": "Template NodeJS Serivce",
+    "NAME": "berks-s3",
+    "DESCRIPTION": "Berkshelf API for S3",
     "VERSION": "",
     "BUILD_NUMBER": "",
     "BUILD_DATE": "",
@@ -26,7 +26,7 @@
     "inline": "sudo mkdir /var/chef && sudo chown ubuntu:ubuntu /var/chef"
   }, {
     "type": "chef-solo",
-    "run_list": ["node-service::default"],
+    "run_list": ["berks-s3::default"],
     "cookbook_paths": ["./cookbooks"],
     "data_bags_path": "./data_bags",
     "environments_path": "./environments",
