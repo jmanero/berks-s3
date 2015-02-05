@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['John Manero']
   spec.email         = ['john.manero@gmail.com']
   spec.summary       = 'Upload cookbooks to S3'
-  spec.description   = Thor::S3Bookshelf::DESCRIPTION
+  spec.description   = IO.read(File.expand_path('../README.md', __FILE__)) rescue 'Unable to read README.md'
   spec.homepage      = 'https://github.com/jmanero/berks-s3'
   spec.license       = 'MIT'
 
