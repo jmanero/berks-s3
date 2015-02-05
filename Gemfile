@@ -1,7 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'aws-sdk'
-gem 'octokit'
-gem 'chef'
-gem 'berkshelf'
-gem 'thor-scmversion'
+gem 'thor-s3bookshelf', :path => './tools/thor-s3bookshelf'
