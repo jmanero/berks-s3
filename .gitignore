@@ -5,19 +5,15 @@
 .*.sw[a-z]
 *.un~
 pkg/
+*.sock
 
-# Berkshelf
+.bundle
+.bookshelf
 .vagrant
-/cookbooks
-cookbooks.tar.gz
 Berksfile.lock
-
-# Bundler
-.bundle/*
-
+/cookbooks
 VERSION
 package.json
 metadata.json
 vendor
 node_modules
-server.sock
