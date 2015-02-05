@@ -57,7 +57,7 @@ class Thor
       no_commands do
         ## Get cookbook path. Defaults to source_root
         def cookbook
-          File.absolute_path(Tasks.config(:cookbook), Tasks.source_root)
+          File.expand_path(Tasks.config(:cookbook), Tasks.source_root)
         end
 
         ## Load chefignore
@@ -144,7 +144,10 @@ class Thor
 
       desc 'cleanup', 'Remove generated local files'
       def cleanup(*_)
-        artifacts.each(&:cleanup)
+        artifacts.each do |artifact|
+          say_status :cleanup, artifact.name
+          artifact.cleanup
+        end
       end
     end
   end

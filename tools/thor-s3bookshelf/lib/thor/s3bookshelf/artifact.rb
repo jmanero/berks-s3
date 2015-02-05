@@ -23,7 +23,7 @@ class Thor
 
       def cleanup
         File.unlink(@path)
-      rescue Error::ENOENT
+      rescue Errno::ENOENT
       end
     end
   end
