@@ -2,4 +2,8 @@
 
 require 'bundler'
 require 'bundler/setup'
-require 'thor/scmversion'
+require 'thor/s3bookshelf'
+
+bucket 'cookbooks.manero.io'
+bucket_prefix 'cookbooks'
+cookbook './cookbook'
